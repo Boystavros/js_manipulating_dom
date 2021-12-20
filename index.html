@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuddly Directory</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form id="new-cuddly-form">
+        <div id="form-wrapper">
+            <div class="form-item">
+                <label for="name" class="primary">Name</label>
+                <input type="text" id="name" required/>
+            </div>
+
+            <div class="form-item">
+                <label for="species">Species</label>
+                <input type="text" id="species" required/>
+            </div>
+
+            <div class="form-item">
+                <label for="owner">Owner</label>
+                <select id="owner">
+                    <option value="evie">Evie</option>
+                    <option value="teddy">Teddy</option>
+                    <option value="wilbur">Wilbur</option>
+                    <option value="baby">Baby</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" value="save"/>
+    </form>
+    
+    <h1>Cuddlies</h1>
+    <ul id="cuddly-directory"></ul>
+</body>
+</html>
