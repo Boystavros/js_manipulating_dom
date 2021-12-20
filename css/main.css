@@ -2,12 +2,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  ul {
+  #cuddly-directory {
     display: flex;
     flex-direction: row;
+    list-style: none;
   }
   
-  li {
+  .cuddly-directory-item {
     width: fit-content;
     margin: 2rem;
+    border: 2px solid rgb(0, 247, 255);
+    border-radius: 5px;
+    padding: 5px;
   }

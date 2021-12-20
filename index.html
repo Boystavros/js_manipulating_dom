@@ -24,11 +24,27 @@
             <div class="form-item">
                 <label for="owner">Owner</label>
                 <select id="owner">
-                    <option value="evie">Evie</option>
-                    <option value="teddy">Teddy</option>
-                    <option value="wilbur">Wilbur</option>
-                    <option value="baby">Baby</option>
+                    <option value="Evie">Evie</option>
+                    <option value="Teddy">Teddy</option>
+                    <option value="Wilbur">Wilbur</option>
+                    <option value="Baby">Baby</option>
                 </select>
+            </div>
+            <div class="form-item">
+                <p>Cleaning schedule:</p>
+                <div>
+                    <input type="radio" id="weekly" name="cleaning" value="weekly" checked>
+                    <label for="weekly">weekly</label>
+                </div>
+                <div>
+                    <input type="radio" id="monthly" name="cleaning" value="monthly">
+                    <label for="monthly">monthly</label>
+                </div>
+                <div>
+                    <input type="radio" id="adhoc" name="cleaning" value="adhoc">
+                    <label for="adhoc">adhoc</label>
+                </div>
+
             </div>
         </div>
         <input type="submit" value="save"/>
@@ -36,5 +52,7 @@
     
     <h1>Cuddlies</h1>
     <ul id="cuddly-directory"></ul>
+
+    <button id="delete-all">Delete all</button>
 </body>
 </html>
